@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
 
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
 
-   LoadingTitle = "Loading title",
+   LoadingTitle = "studi secret sigma hub",
 
    LoadingSubtitle = "description to know who made it",
 
