@@ -78,6 +78,9 @@ local Button = Tab2:CreateButton({
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gardenyoutuber/GrowAGardenBest/refs/heads/main/c20e40ceff8497098343d195dbdac37d.txt"))()
 
+  end,
+
+})
 
 local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
 local Button = Tab3:CreateButton({
@@ -86,3 +89,7 @@ local Button = Tab3:CreateButton({
 
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scripts-Roblox/refs/heads/main/ScriptR6/AnimGuiV2.lua"))()
+  
+    end,
+
+})
