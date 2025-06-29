@@ -70,4 +70,10 @@ local Button = Tab:CreateButton({
 
 })
 
-local Tab = Window:CreateTab("i love kids!", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+
+   Name = "grow a kid bc why not", 
+
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/gardenyoutuber/GrowAGardenBest/refs/heads/main/c20e40ceff8497098343d195dbdac37d.txt"))()
