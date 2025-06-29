@@ -2,11 +2,11 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
 
-   Name = "Studi hub",
+   Name = "Secret Sigma Studi Hub",
 
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
 
-   LoadingTitle = "studi secret sigma hub",
+   LoadingTitle = "loading fatass",
 
    LoadingSubtitle = "i luvvv i luh a uv",
 
@@ -59,7 +59,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("studi hacking machine", 4483362458) -- Title, Image
-local Paragraph = Tab:CreateParagraph({Title = "Note", Content = "This is a private script hub so reminder for STUDIOUS ik your screen sharing :)"})
+local Paragraph = Tab:CreateParagraph({Title = "poo poo", Content = "This is a private script hub so reminder for STUDIOUS ik your screen sharing :)"})
 local Button = Tab:CreateButton({
 
    Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
@@ -69,3 +69,5 @@ local Button = Tab:CreateButton({
    end,
 
 })
+
+local Tab = Window:CreateTab("i love kids!", 4483362458) -- Title, Image
