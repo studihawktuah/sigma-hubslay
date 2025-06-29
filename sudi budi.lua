@@ -8,9 +8,9 @@ local Window = Rayfield:CreateWindow({
 
    LoadingTitle = "studi secret sigma hub",
 
-   LoadingSubtitle = "description to know who made it",
+   LoadingSubtitle = "i luvvv i luh a uv",
 
-   Theme = "Light", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
 
