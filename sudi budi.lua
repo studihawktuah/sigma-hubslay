@@ -64,7 +64,7 @@ local Button = Tab:CreateButton({
 
    Name = "bubbles hub",
 
-   Callback = function() 
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BobJunior1/ForsakenBoi/refs/heads/main/B0bbyHub"))()
 
    end,
 
