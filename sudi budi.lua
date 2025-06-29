@@ -58,8 +58,8 @@ local Window = Rayfield:CreateWindow({
 
 })
 
-local Tab = Window:CreateTab("studi hacking machine", 4483362458) -- Title, Image
-local Paragraph = Tab:CreateParagraph({Title = "poo poo", Content = "This is a private script hub so reminder for STUDIOUS ik your screen sharing :)"})
+local Tab = Window:CreateTab("forsaken shitty monki (main hub)", 114144106654134) -- Title, Image
+local Paragraph = Tab:CreateParagraph({Title = "jerate", Content = "This is a private script hub sigma.:)"})
 local Button = Tab:CreateButton({
 
    Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
