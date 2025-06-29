@@ -62,7 +62,7 @@ local Tab = Window:CreateTab("studi hacking machine", 4483362458) -- Title, Imag
 local Paragraph = Tab:CreateParagraph({Title = "Note", Content = "This is a private script hub so reminder for STUDIOUS ik your screen sharing :)"})
 local Button = Tab:CreateButton({
 
-   Name = "Forsaken (key UNKNOWN)",
+   Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
 
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BobJunior1/ForsakenBoi/refs/heads/main/B0bbyHub"))()
 
