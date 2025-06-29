@@ -10,7 +10,7 @@ local Window = Rayfield:CreateWindow({
 
    LoadingSubtitle = "description to know who made it",
 
-   Theme = "DarkBlue", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Light", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
    DisableRayfieldPrompts = false,
 
