@@ -71,7 +71,7 @@ local Button = Tab:CreateButton({
 })
 
 local Tab2 = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
-local Button = Tab:CreateButton({
+local Button = Tab2:CreateButton({
 
    Name = "grow a kid bc why not", 
 
@@ -80,7 +80,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/gardenyoutuber/GrowAG
 
 
 local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
-local Button = Tab:CreateButton({
+local Button = Tab3:CreateButton({
 
    Name = "R6 anims",
 
