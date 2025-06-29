@@ -59,3 +59,4 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("studi hacking machine", 4483362458) -- Title, Image
+local Paragraph = Tab:CreateParagraph({Title = "Note", Content = "This is a private script hub so reminder for STUDIOUS ik your screen sharing :)"})
