@@ -70,6 +70,8 @@ local Button = Tab:CreateButton({
 
 })
 
+   local Button = Tab:CreateButton({
+   
    Name = "infinite yield script",
 
    Callback = function()
