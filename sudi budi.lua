@@ -58,8 +58,8 @@ local Window = Rayfield:CreateWindow({
 
 })
 
-local Tab = Window:CreateTab("forsaken shitty monki (main hub)", 114144106654134) -- Title, Image
-local Paragraph = Tab:CreateParagraph({Title = "jerate", Content = "This is a private script hub sigma.:)"})
+local Tab = Window:CreateTab("MAIN HUB (has prob every script in this hub", 114144106654134) -- Title, Image
+local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "Credits."})
 local Button = Tab:CreateButton({
 
    Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
@@ -69,6 +69,18 @@ local Button = Tab:CreateButton({
    end,
 
 })
+
+   Name = "infinite yield script",
+
+   Callback = function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+
+   end,
+
+}) 
+
+local Tab = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
 
 local Tab2 = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
 local Button = Tab2:CreateButton({
