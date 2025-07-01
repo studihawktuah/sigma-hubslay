@@ -6,7 +6,7 @@ local Window = Rayfield:CreateWindow({
 
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
 
-   LoadingTitle = "loading fatass",
+   LoadingTitle = "welcome to studious hub",
 
    LoadingSubtitle = "i luvvv i luh a uv",
 
@@ -42,7 +42,7 @@ local Window = Rayfield:CreateWindow({
 
       Title = "Studi system",
 
-      Subtitle = "description to get key",
+      Subtitle = "sigma studi hub",
 
       Note = "dumbass its studi", -- Use this to tell the user how to get a key
 
@@ -58,8 +58,8 @@ local Window = Rayfield:CreateWindow({
 
 })
 
-local Tab = Window:CreateTab("MAIN HUB (has prob every script in this hub", 114144106654134) -- Title, Image
-local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "Credits."})
+local Tab = Window:CreateTab("Main tab", 114144106654134) -- Title, Image
+local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "i luv gubby"})
 local Button = Tab:CreateButton({
 
    Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
