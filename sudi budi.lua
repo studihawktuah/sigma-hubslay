@@ -111,6 +111,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scri
 local Button = Tab:CreateButton({
 
    Name = "temugui",
+   
    Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
 
