@@ -81,9 +81,6 @@ loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield
 
 }) 
 
-local Tab = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
-local Button = Tab:CreateButton({
-
 local Tab2 = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
 local Button = Tab2:CreateButton({
 
