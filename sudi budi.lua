@@ -59,7 +59,7 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Main tab", 108606097801627) -- Title, Image
-local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "i luv gubby"})
+local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious"})
 local Button = Tab:CreateButton({
 
    Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
