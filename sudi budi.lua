@@ -66,7 +66,7 @@ Rayfield:Notify({
    Title = "Made bz studi",
    Content = "Super secret studi hubby",
    Duration = 4.0,
-   Image = ,
+   Image = 87732724739031,
 })
 
 local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious"})
@@ -78,7 +78,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "infinite yield script",
    Callback = function()
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source7'),true))()
 
    end,
 
