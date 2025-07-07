@@ -59,59 +59,37 @@ local Window = Rayfield:CreateWindow({
 })
 
 local Tab = Window:CreateTab("Main tab", 108606097801627) -- Title, Image
+local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
+
 local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious"})
 local Button = Tab:CreateButton({
-
    Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
-
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BobJunior1/ForsakenBoi/refs/heads/main/B0bbyHub"))()
-
-   end,
-
+  end,
 })
-
-   local Button = Tab:CreateButton({
-   
+local Button = Tab:CreateButton({
    Name = "infinite yield script",
-
    Callback = function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 
    end,
 
 }) 
-
-local Tab2 = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
 local Button = Tab2:CreateButton({
-
    Name = "grow a kid bc why not", 
-
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gardenyoutuber/GrowAGardenBest/refs/heads/main/c20e40ceff8497098343d195dbdac37d.txt"))()
-
   end,
-
 })
-
-local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
 local Button = Tab3:CreateButton({
-
    Name = "R6 anims",
-
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scripts-Roblox/refs/heads/main/ScriptR6/AnimGuiV2.lua"))()
-  
-    end,
-
+   end,
 })
-
 local Button = Tab:CreateButton({
-
    Name = "temugui",
-   
    Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
-
-     end,
-
+   end,
 })
