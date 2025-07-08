@@ -4,7 +4,7 @@ local Window = Rayfield:CreateWindow({
 
    Name = "Secret Sigma Studi Hub",
 
-   Icon = = 87732724739031, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
 
    LoadingTitle = "welcome to studious hub",
 
@@ -101,3 +101,4 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
    end,
 })
+
