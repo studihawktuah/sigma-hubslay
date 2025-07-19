@@ -62,13 +62,6 @@ local Tab = Window:CreateTab("Main tab", 108606097801627) -- Title, Image
 local Tab2 = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
 local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
 
-Rayfield:Notify({
-   Title = "Made bz studi",
-   Content = "Super secret studi hubby",
-   Duration = 4.0,
-   Image = 87732724739031,
-})
-
 local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious"})
 local Button = Tab:CreateButton({
    Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
