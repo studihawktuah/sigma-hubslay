@@ -100,5 +100,10 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
    end,
 })
-
+local Button = Tab4:CreateButton({
+   Name = "sigma pressuru",
+   Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Loader"))()
+   end,
+})
    
