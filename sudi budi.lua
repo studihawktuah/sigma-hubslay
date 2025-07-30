@@ -61,6 +61,14 @@ local Window = Rayfield:CreateWindow({
 local Tab = Window:CreateTab("Main tab", 108606097801627) -- Title, Image
 local Tab2 = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
 local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
+local Tab4 = Window:CreateTab("pressure & more", 79143620854409) -- Title, Image
+
+Rayfield:Notify({
+   Title = "welcome user",
+   Content = "hai welcome to studi hub studious peed his pants",
+   Duration = 6.5,
+   Image = 79143620854409,
+})
 
 local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious"})
 local Button = Tab:CreateButton({
@@ -93,3 +101,4 @@ loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
    end,
 })
 
+   
