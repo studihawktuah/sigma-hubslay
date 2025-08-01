@@ -107,4 +107,7 @@ local Button = Tab4:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Loader"))()
    end,
 })
-   
+local Button = Tab5:CreateButton({
+   Name = "Dandys world script!",
+   Callback = function()
+
