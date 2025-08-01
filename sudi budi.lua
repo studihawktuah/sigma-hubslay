@@ -110,3 +110,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-
 local Button = Tab5:CreateButton({
    Name = "Dandys world script!",
    Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/Y7uh3UZf"))();
+   end,
+})
+
