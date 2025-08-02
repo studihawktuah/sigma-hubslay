@@ -74,7 +74,7 @@ Rayfield:Notify({
 
 local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious"})
 local Button = Tab:CreateButton({
-   Name = "Forsaken (key BOBBYHUBKEYWJJEBEKEI1827272)",
+   Name = "Forsaken (broken sorry)",
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BobJunior1/ForsakenBoi/refs/heads/main/B0bbyHub"))()
   end,
 })
