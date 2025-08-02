@@ -63,6 +63,7 @@ local Tab2 = Window:CreateTab("grow a kid!", 4483362458) -- Title, Image
 local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
 local Tab4 = Window:CreateTab("pressure & more", 79143620854409) -- Title, Image
 local Tab5 = Window:CreateTab("dandys world!", 79143620854409) -- Title, Image
+local Tab6 = Window:CreateTab("forsaken/forsakenTD :P", 10753364424) -- Title, Image
 
 Rayfield:Notify({
    Title = "welcome user",
@@ -112,4 +113,13 @@ local Button = Tab5:CreateButton({
    Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/Y7uh3UZf"))();
    end,
 })
-
+local Button = Tab6:CreateButton({
+  Name = "forsaken TD script",
+  Callback = function()
+loadstring(string.char(
+108,111,97,100,115,116,114,105,110,103,40,103,97,109,101,58,72,116,116,112,71,101,116,40,34,
+104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,
+81,104,81,82,53,55,120,100,34,44,116,114,117,101,41,41,40,41
+))()
+   end,
+})
