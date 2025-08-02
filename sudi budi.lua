@@ -67,7 +67,7 @@ local Tab6 = Window:CreateTab("forsaken/forsakenTD :P", 10753364424) -- Title, I
 
 Rayfield:Notify({
    Title = "welcome user",
-   Content = "hai welcome to studi hub studious peed his pants",
+   Content = "hai this is studi hub also try coolhack script hub too!",
    Duration = 6.5,
    Image = 79143620854409,
 })
