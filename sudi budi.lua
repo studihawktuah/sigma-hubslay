@@ -279,7 +279,12 @@ local Toggle = Tab8:CreateToggle({
             Duration = 3,
         })
     end,
-
+if not noclipEnabled then
+Rayfield:Notify({
+Title = "Noclip stopped",
+Content = "Noclip Not Active", 
+Duration = 3,
+})
 
 game.Players.LocalPlayer.CharacterAdded:Connect(function()
     if not noclipEnabled then
