@@ -64,7 +64,8 @@ local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
 local Tab4 = Window:CreateTab("pressure & more", 81417074044532) -- Title, Image
 local Tab5 = Window:CreateTab("dandys world!", 98074037951297) -- Title, Image
 local Tab6 = Window:CreateTab("forsaken/forsakenTD :P", 108576666797778) -- Title, Image
-local Tab7 = Window:CreateTab("settings", 0) -- Title, Image
+local Tab7 = Window:CreateTab("TTD", 0) - - Title, Image
+local Tab8 = Window:CreateTab("settings", 0) -- Title, Image
 
 Rayfield:Notify({
    Title = "welcome user",
@@ -144,7 +145,7 @@ local function disableFullbright()
     Lighting.OutdoorAmbient = Color3.new(0.5, 0.5, 0.5)
 end
 
-local Toggle = Tab7:CreateToggle({
+local Toggle = Tab8:CreateToggle({
     Name = "Fullbright",
     CurrentValue = false,
     Flag = "FullbrightToggle",
@@ -156,4 +157,10 @@ local Toggle = Tab7:CreateToggle({
             disableFullbright()
         end
     end,
+})
+
+local Button = Tab7:CreateButton({
+  Name = "Ttd script 1"
+  Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/asigmaserver/ttdv2/refs/heads/main/ttdv2script"))()
+   end,
 })
