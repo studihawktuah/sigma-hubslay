@@ -235,57 +235,6 @@ local Toggle = Tab8:CreateToggle({
     end,
 })
 
-local noclipEnabled = false
-local noclipConnection = nil
-
-local function NoclipLoop()
-    if noclipEnabled then
-        noclipConnection = game:GetService("RunService").Stepped:Connect(function()
-            local player = game.Players.LocalPlayer
-            if player and player.Character then
-                for _, v in pairs(player.Character:GetChildren()) do
-                    if v:IsA("BasePart") then
-                        v.CanCollide = false
-                    end
-                end
-            end
-        end)
-    else
-        if noclipConnection then
-            noclipConnection:Disconnect()
-            noclipConnection = nil
-        end
-        local player = game.Players.LocalPlayer
-        if player and player.Character then
-            for _, v in pairs(player.Character:GetChildren()) do
-                if v:IsA("BasePart") then
-                    v.CanCollide = true
-                end
-            end
-        end
-    end
-end
-
-local Toggle = Tab8:CreateToggle({
-    Name = "Noclip",
-    CurrentValue = false,
-    Flag = "NoclipToggle",
-    Callback = function(value)
-        noclipEnabled = value
-        NoclipLoop()
-        Rayfield:Notify({
-            Title = "Noclip Started",
-            Content = "Noclip Active",
-            Duration = 3,
-        })
-    end,
-if not noclipEnabled then
-Rayfield:Notify({
-Title = "Noclip stopped",
-Content = "Noclip Not Active", 
-Duration = 3,
-}) 
-
 local Button = Tab7:CreateButton({
   Name = "Ttd script 1", 
   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/asigmaserver/ttdv2/refs/heads/main/ttdv2script"))()
