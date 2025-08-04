@@ -103,13 +103,13 @@ local Button = Tab3:CreateButton({
    Name = "R6 anims",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scripts-Roblox/refs/heads/main/ScriptR6/AnimGuiV2.lua"))()
-   end,
+  end,
 })
 local Button = Tab:CreateButton({
    Name = "temugui",
    Callback = function()
 loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
-   end,
+  end,
 })
 
 local Section = Tab4:CreateSection("Pressure")
@@ -118,7 +118,7 @@ local Button = Tab4:CreateButton({
    Name = "sigma pressuru",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Loader"))()
-   end,
+  end,
 })
 
 local Section = Tab5:CreateSection("Dandy's world")
@@ -126,7 +126,7 @@ local Section = Tab5:CreateSection("Dandy's world")
 local Button = Tab5:CreateButton({
    Name = "Dandys world script!",
    Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/Y7uh3UZf"))();
-   end,
+  end,
 })
 
 local Section = Tab6:CreateSection("Forsaken Tower defense")
@@ -151,32 +151,32 @@ getgenv().FatalCombatSkillLayout = true
 getgenv().MovesetReachSound = true
 
 loadstring(game:HttpGet("https://gist.githubusercontent.com/SonicexePort/d83f3eca5e8092468df1551df09db39a/raw/861f16fbae8fab8803cabfbc01295bb5b687f86a/Death%20Port%20Six%20Eyes%20Public%20Beta"))()
-   end,
+  end,
 }) 
 local Button = Tab9:CreateButton({
 Name = "Sun jin woo Moveset (Equip Saitama)",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"))()
-   end,
+  end,
 }) 
 local Button = Tab9:CreateButton({
 Name = "Mastery Moveset (Equip Garou)",
 Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
-   end,
+  end,
 })
 local Button = Tab9:CreateButton({
 Name = "Sonic.exe Moveset (Equip Garou)",
 Callback = function() loadstring(game:HttpGet("https://pastefy.app/4zLt8a2P/raw"))()
-   end,
+  end,
 })
 local Button = Tab9:CreateButton({
 Name = "Mafioso Moveset (Equip Saitama)",
 Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Lovelymoonlight/Lovelymoonlight/refs/heads/main/Baldy%20to%20mafioso'))()
-   end,
+  end,
 })
 local Button = Tab9:CreateButton({
 Name = "1x1x1x1 Moveset (Equip Deadly Ninja)",
 Callback = function() loadstring(game:HttpGet("https://pastefy.app/4zLt8a2P/raw"))()
-   end,
+  end,
 })
 local Button = Tab9:CreateButton({
 Name = "Madara Moveset (Equip Saitama)",
@@ -184,12 +184,12 @@ Callback = function()
 getgenv().Cutscene = True
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/SCRIPTSBYVEUX/refs/heads/main/BoombasticLol.lua.txt"))()
-   end,
+  end,
 })
 local Button = Tab9:CreateButton({
 Name = "Wally west Moveset (Equip Saitama)",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/west/refs/heads/main/Protected_4638864115822087.lua.txt"))()
-   end,
+  end,
 })
 local Button = Tab9:CreateButton({
 Name = "Yuji X Sukuna Moveset (Equip Saitama)",
@@ -201,14 +201,14 @@ getgenv().fog = true
 getgenv().infinitedash = false
 getgenv().night = false 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Sigma%20v2%20vessel%20tp'))()
-   end,
+  end,
 })
 
 local Button = Tab9:CreateButton({
 Name = "Naruto Moveset (Equip Saitama)",
 Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/NarutoBeatUpSasukeAss/refs/heads/main/NarutoCums"))()
-   end,
+  end,
 })
 
 local Section = Tab8:CreateSection("Settings")
