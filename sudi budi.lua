@@ -64,8 +64,8 @@ local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
 local Tab4 = Window:CreateTab("pressure & more", 81417074044532) -- Title, Image
 local Tab5 = Window:CreateTab("dandys world!", 98074037951297) -- Title, Image
 local Tab6 = Window:CreateTab("forsaken/forsakenTD :P", 108576666797778) -- Title, Image
-local Tab7 = Window:CreateTab("TTD", 0) -- Title, Image
-local Tab8 = Window:CreateTab("settings", 0) -- Title, Image
+local Tab7 = Window:CreateTab("TTD", 4483362458) -- Title, Image
+local Tab8 = Window:CreateTab("settings", 4483362458) -- Title, Image
 
 Rayfield:Notify({
    Title = "welcome user",
