@@ -64,6 +64,7 @@ local Tab3 = Window:CreateTab("Animations!", 6119363456) -- Title, Image
 local Tab4 = Window:CreateTab("pressure & more", 81417074044532) -- Title, Image
 local Tab5 = Window:CreateTab("dandys world!", 98074037951297) -- Title, Image
 local Tab6 = Window:CreateTab("forsaken/forsakenTD :P", 108576666797778) -- Title, Image
+local Tab7 = Window:CreateTab("settings", 0) -- Title, Image
 
 Rayfield:Notify({
    Title = "welcome user",
@@ -122,4 +123,37 @@ loadstring(string.char(
 81,104,81,82,53,55,120,100,34,44,116,114,117,101,41,41,40,41
 ))()
    end,
+})
+
+local Lighting = game:GetService("Lighting")
+local isFullbright = false
+
+local function enableFullbright()
+    Lighting.Brightness = 10
+    Lighting.ClockTime = 12
+    Lighting.FogEnd = 100000
+    Lighting.Ambient = Color3.new(1, 1, 1)
+    Lighting.OutdoorAmbient = Color3.new(1, 1, 1)
+end
+
+local function disableFullbright()
+    Lighting.Brightness = 2
+    Lighting.ClockTime = 14
+    Lighting.FogEnd = 1000
+    Lighting.Ambient = Color3.new(0.5, 0.5, 0.5)
+    Lighting.OutdoorAmbient = Color3.new(0.5, 0.5, 0.5)
+end
+
+local Toggle = Tab7:CreateToggle({
+    Name = "Fullbright",
+    CurrentValue = false,
+    Flag = "FullbrightToggle",
+    Callback = function(Value)
+        isFullbright = Value
+        if Value then
+            enableFullbright()
+        else
+            disableFullbright()
+        end
+    end,
 })
