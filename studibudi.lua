@@ -142,7 +142,7 @@ local Button = Tab5:CreateButton({
 local Section = Tab6:CreateSection("Forsaken Tower defense")
 
 local Button = Tab6:CreateButton({
-  Name = "forsaken TD script",
+  Name = "forsaken TD script 1",
   Callback = function()
 loadstring(string.char(
 108,111,97,100,115,116,114,105,110,103,40,103,97,109,101,58,72,116,116,112,71,101,116,40,34,
@@ -151,6 +151,14 @@ loadstring(string.char(
 ))()
    end,
 })
+
+local Button = Tab6:CreateButton({
+  Name = "forsaken TD script 1",
+  Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/L0stVeil/LocalScripts/refs/heads/main/LoaderFTD")()
+   end,
+})
+ 
 
 local Section = Tab9:CreateSection("Tsb Movesets")
 
