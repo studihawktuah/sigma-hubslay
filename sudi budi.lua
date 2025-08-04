@@ -184,7 +184,7 @@ Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com
   end,
 })
 local Button = Tab9:CreateButton({
-Name = "1x1x1x1 Moveset (Equip Deadly Ninja)",
+Name = "1x1x1x1 Moveset out of order (Equip Deadly Ninja)",
 Callback = function() loadstring(game:HttpGet("https://pastefy.app/4zLt8a2P/raw"))()
   end,
 })
