@@ -90,7 +90,7 @@ local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to s
 local Section = Tab:CreateSection("somestuff")
 
 local Button = Tab:CreateButton({
-   Name = "Forsaken (fixed key: V10RELEASE)",
+   Name = "Forsaken (fixed key: BETTERPROTECTNAMESANDESP)",
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sigmaboy-sigma-boy/Stamina-Settings-and-ESP/refs/heads/main/SigmasakenLoader"))()
   end,
 })
@@ -149,7 +149,7 @@ local Button = Tab5:CreateButton({
 })
 
 local Button = Tab5:CreateButton({
-   Name = "Dandy's world script! 2"
+   Name = "Dandy's world script! 2",
    Callback = function() 
 loadstring(game:HttpGet("https://pastebin.com/raw/FBRnb7S7"))()
   end,
