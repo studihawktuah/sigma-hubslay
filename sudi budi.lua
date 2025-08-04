@@ -68,6 +68,16 @@ local Tab7 = Window:CreateTab("TTD", 4483362458) -- Title, Image
 local Tab8 = Window:CreateTab("settings", 4483362458) -- Title, Image
 local Tab9 = Window:CreateTab("Tsb Movesets", 4483362458) -- Title, Image
 
+local Divider = Tab:CreateDivider()
+local Divider = Tab2:CreateDivider()
+local Divider = Tab3:CreateDivider()
+local Divider = Tab4:CreateDivider()
+local Divider = Tab5:CreateDivider()
+local Divider = Tab6:CreateDivider()
+local Divider = Tab7:CreateDivider()
+local Divider = Tab8:CreateDivider()
+local Divider = Tab9:CreateDivider()
+
 Rayfield:Notify({
    Title = "welcome user",
    Content = "hai this is studi hub also try c00lhackk script hub too!",
