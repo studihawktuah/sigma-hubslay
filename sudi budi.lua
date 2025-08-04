@@ -284,13 +284,7 @@ Rayfield:Notify({
 Title = "Noclip stopped",
 Content = "Noclip Not Active", 
 Duration = 3,
-})
-
-game.Players.LocalPlayer.CharacterAdded:Connect(function()
-    if not noclipEnabled then
-        NoclipLoop()
-    end
-end)
+}) 
 
 local Button = Tab7:CreateButton({
   Name = "Ttd script 1", 
