@@ -70,7 +70,7 @@ local Tab9 = Window:CreateTab("Tsb Movesets", 4483362458) -- Title, Image
 
 Rayfield:Notify({
    Title = "welcome user",
-   Content = "hai this is studi hub also try coolhack script hub too!",
+   Content = "hai this is studi hub also try c00lhackk script hub too!",
    Duration = 6.5,
    Image = 79143620854409,
 })
