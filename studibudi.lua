@@ -139,6 +139,13 @@ local Button = Tab5:CreateButton({
   end,
 })
 
+local Button = Tab5:CreateButton({
+   Name = "Dandy's world script! 2"
+   Callback = function() 
+loadstring(game:HttpGet("https://pastebin.com/raw/FBRnb7S7"))()
+  end,
+}) 
+
 local Section = Tab6:CreateSection("Forsaken Tower defense")
 
 local Button = Tab6:CreateButton({
