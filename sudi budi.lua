@@ -159,59 +159,52 @@ local Toggle = Tab8:CreateToggle({
     end,
 })
 
-local old_settings = {}
-local boosted = false
+local boosterEnabled = false
 
 function BoostFPS()
-    -- Save old settings
-    old_settings.Lighting = game.Lighting.GlobalShadows
-    old_settings.LightingBrightness = game.Lighting.Brightness
-    old_settings.Terrain = game.Workspace.Terrain.Decoration
-    old_settings.FogEnd = game.Lighting.FogEnd
+    -- Lighting tweaks
+    local Lighting = game:GetService("Lighting")
+    Lighting.GlobalShadows = false
+    Lighting.Brightness = 1
+    Lighting.FogEnd = 100000
 
-    -- Apply FPS boost
-    game.Lighting.GlobalShadows = false
-    game.Lighting.Brightness = 1
-    game.Workspace.Terrain.Decoration = false
-    game.Lighting.FogEnd = 100000
+    -- Terrain tweaks
+    local Terrain = workspace:FindFirstChildOfClass("Terrain")
+    if Terrain then
+        Terrain.WaterWaveSize = 0
+        Terrain.WaterWaveSpeed = 0
+        Terrain.WaterReflectance = 0
+        Terrain.WaterTransparency = 0
+    end
 
-    -- Remove particle emitters and trails
+    -- Disable particles/trails/smoke/fire
     for _, v in ipairs(workspace:GetDescendants()) do
         if v:IsA("ParticleEmitter") or v:IsA("Trail") or v:IsA("Smoke") or v:IsA("Fire") then
             v.Enabled = false
-        elseif v:IsA("Explosion") then
-            v.Visible = false
-        end
-    end
-
-    -- Lower texture quality (optional)
-    for _, v in ipairs(workspace:GetDescendants()) do
-        if v:IsA("Texture") or v:IsA("Decal") then
-            v.Transparency = 1
         end
     end
 end
 
 function RestoreFPS()
-    -- Restore old settings
-    game.Lighting.GlobalShadows = old_settings.Lighting
-    game.Lighting.Brightness = old_settings.LightingBrightness
-    game.Workspace.Terrain.Decoration = old_settings.Terrain
-    game.Lighting.FogEnd = old_settings.FogEnd
+    -- Restore Lighting
+    local Lighting = game:GetService("Lighting")
+    Lighting.GlobalShadows = true
+    Lighting.Brightness = 2
+    Lighting.FogEnd = 1000
 
-    -- Re-enable particle emitters and trails
+    -- Restore Terrain
+    local Terrain = workspace:FindFirstChildOfClass("Terrain")
+    if Terrain then
+        Terrain.WaterWaveSize = 1
+        Terrain.WaterWaveSpeed = 2
+        Terrain.WaterReflectance = 1
+        Terrain.WaterTransparency = 0.5
+    end
+
+    -- Enable particles/trails/smoke/fire
     for _, v in ipairs(workspace:GetDescendants()) do
         if v:IsA("ParticleEmitter") or v:IsA("Trail") or v:IsA("Smoke") or v:IsA("Fire") then
             v.Enabled = true
-        elseif v:IsA("Explosion") then
-            v.Visible = true
-        end
-    end
-
-    -- Restore texture quality (optional)
-    for _, v in ipairs(workspace:GetDescendants()) do
-        if v:IsA("Texture") or v:IsA("Decal") then
-            v.Transparency = 0
         end
     end
 end
@@ -225,8 +218,8 @@ local Toggle = Tab8:CreateToggle({
         if boosted then
             BoostFPS()
             Rayfield:Notify({
-                Title = "FPS Booster loaded",
-                Content = "FPS Optimized",
+                Title = "FPS Booster Enabled",
+                Content = "FPS settings optimized!",
                 Duration = 3,
                 Image = 4483362458,
             })
@@ -234,7 +227,7 @@ local Toggle = Tab8:CreateToggle({
             RestoreFPS()
             Rayfield:Notify({
                 Title = "FPS Booster Disabled",
-                Content = "Normal Graphics restored.",
+                Content = "Graphics settings restored.",
                 Duration = 3,
                 Image = 4483362458,
             })
