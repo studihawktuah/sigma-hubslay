@@ -66,6 +66,7 @@ local Tab5 = Window:CreateTab("dandys world!", 98074037951297) -- Title, Image
 local Tab6 = Window:CreateTab("forsaken/forsakenTD :P", 108576666797778) -- Title, Image
 local Tab7 = Window:CreateTab("TTD", 4483362458) -- Title, Image
 local Tab8 = Window:CreateTab("settings", 4483362458) -- Title, Image
+local Tab9 = Window:CreateTab("Tsb Movesets", 4483362458) -- Title, Image
 
 Rayfield:Notify({
    Title = "welcome user",
@@ -140,6 +141,10 @@ loadstring(string.char(
 ))()
    end,
 })
+
+local Section = Tab9:CreateSection("Tsb Movesets")
+
+
 
 local Section = Tab8:CreateSection("Settings")
 
