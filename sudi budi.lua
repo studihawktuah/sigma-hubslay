@@ -160,7 +160,7 @@ local Toggle = Tab8:CreateToggle({
 })
 
 local Button = Tab7:CreateButton({
-  Name = "Ttd script 1"
+  Name = "Ttd script 1", 
   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/asigmaserver/ttdv2/refs/heads/main/ttdv2script"))()
    end,
 })
