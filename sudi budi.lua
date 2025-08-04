@@ -235,6 +235,70 @@ local Toggle = Tab8:CreateToggle({
     end,
 })
 
+
+local function ToggleNoClip(state)
+
+    NoClipEnabled = state
+
+    if state then
+
+        -- Enable NoClip
+
+        RunService.Stepped:Connect(function()
+
+            if NoClipEnabled and game.Players.LocalPlayer.Character then
+
+                for _, part in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+
+                    if part:IsA("BasePart") and part.CanCollide then
+
+                        part.CanCollide = false
+
+                    end
+
+                end
+
+            end
+
+        end)
+
+    else
+
+        -- Disable NoClip
+
+        if game.Players.LocalPlayer.Character then
+
+            for _, part in pairs(game.Players.LocalPlayer.Character:GetDescendants()) do
+
+                if part:IsA("BasePart") then
+
+                    part.CanCollide = true
+
+                end
+
+            end
+
+        end
+
+    end
+
+end
+
+local NoClipToggle = Tabeditplayer:CreateToggle({
+
+    Name = "NoClip",
+
+    CurrentValue = false,
+
+    Flag = "ToggleNoClip",
+
+    Callback = function(state)
+
+        ToggleNoClip(state)
+   end,
+
+})
+
 local Button = Tab7:CreateButton({
   Name = "Ttd script 1", 
   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/asigmaserver/ttdv2/refs/heads/main/ttdv2script"))()
