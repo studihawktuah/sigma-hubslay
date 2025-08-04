@@ -155,7 +155,7 @@ loadstring(string.char(
 local Section = Tab9:CreateSection("Tsb Movesets")
 
 local Button = Tab9:CreateButton({
-Name = "Gojo Moveset (Equip Saitama)
+Name = "Gojo Moveset (Equip Saitama)",
 Callback = function()
 getgenv().FatalCombatSkillLayout = true
 getgenv().MovesetReachSound = true
