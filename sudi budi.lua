@@ -75,8 +75,11 @@ Rayfield:Notify({
 })
 
 local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious"})
+
+local Section = Tab:CreateSection("somestuff")
+
 local Button = Tab:CreateButton({
-   Name = "Forsaken (broken sorry)",
+   Name = "Forsaken (fixed)",
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BobJunior1/ForsakenBoi/refs/heads/main/B0bbyHub"))()
   end,
 })
@@ -92,6 +95,9 @@ local Button = Tab2:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gardenyoutuber/GrowAGardenBest/refs/heads/main/c20e40ceff8497098343d195dbdac37d.txt"))()
   end,
 })
+
+local Section = Tab3:CreateSection("Animations")
+
 local Button = Tab3:CreateButton({
    Name = "R6 anims",
    Callback = function()
@@ -104,17 +110,26 @@ local Button = Tab:CreateButton({
 loadstring(game:HttpGet("https://pastebin.com/raw/vnJxMWwG",true))()
    end,
 })
+
+local Section = Tab4:CreateSection("Pressure")
+
 local Button = Tab4:CreateButton({
    Name = "sigma pressuru",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Loader"))()
    end,
 })
+
+local Section = Tab5:CreateSection("Dandy's world")
+
 local Button = Tab5:CreateButton({
    Name = "Dandys world script!",
    Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/Y7uh3UZf"))();
    end,
 })
+
+local Section = Tab6:CreateSection("Forsaken Tower defense")
+
 local Button = Tab6:CreateButton({
   Name = "forsaken TD script",
   Callback = function()
@@ -125,6 +140,52 @@ loadstring(string.char(
 ))()
    end,
 })
+
+local Section = Tab8:CreateSection("Settings")
+
+local Slider = Tabeditplayer:CreateSlider({
+
+    Name = "change JumpPower",
+
+    Range = {50, 500},
+
+    Increment = 10,
+
+    Suffix = "JumpPower",
+
+    CurrentValue = 10,
+
+    Flag = "JumpPower",
+
+    Callback = function(v)
+
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = v
+
+    end,
+
+ })
+
+local Slider = Tabeditplayer:CreateSlider({
+
+    Name = "Walkspeed",
+
+    Range = {16, 450},
+
+    Increment = 10,
+
+    Suffix = "Walkspeed",
+
+    CurrentValue = 10,
+
+    Flag = "Walkspeed",
+
+    Callback = function(v)
+
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = v
+
+    end,
+
+ })
 
 local Lighting = game:GetService("Lighting")
 local isFullbright = false
@@ -284,7 +345,7 @@ local function ToggleNoClip(state)
 
 end
 
-local NoClipToggle = Tabeditplayer:CreateToggle({
+local NoClipToggle = Tab8:CreateToggle({
 
     Name = "NoClip",
 
@@ -296,6 +357,42 @@ local NoClipToggle = Tabeditplayer:CreateToggle({
 
         ToggleNoClip(state)
    end,
+
+})
+
+local InfiniteJumpConnection
+
+local Toggle = Tab8:CreateToggle({
+
+    Name = "Infinite Jump",
+
+    CurrentValue = false,
+
+    Flag = "Toggle1",
+
+    Callback = function(InfiniteJumpEnabled)
+
+        if InfiniteJumpEnabled then
+
+            InfiniteJumpConnection = game:GetService("UserInputService").JumpRequest:Connect(function()
+
+                game:GetService("Players").LocalPlayer.Character:FindFirstChildOfClass("Humanoid"):ChangeState("Jumping")
+
+            end)
+
+        else
+
+            if InfiniteJumpConnection then
+
+                InfiniteJumpConnection:Disconnect()
+
+                InfiniteJumpConnection = nil
+
+            end
+
+        end
+
+    end,
 
 })
 
