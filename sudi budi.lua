@@ -159,6 +159,89 @@ local Toggle = Tab8:CreateToggle({
     end,
 })
 
+local old_settings = {}
+local boosted = false
+
+function BoostFPS()
+    -- Save old settings
+    old_settings.Lighting = game.Lighting.GlobalShadows
+    old_settings.LightingBrightness = game.Lighting.Brightness
+    old_settings.Terrain = game.Workspace.Terrain.Decoration
+    old_settings.FogEnd = game.Lighting.FogEnd
+
+    -- Apply FPS boost
+    game.Lighting.GlobalShadows = false
+    game.Lighting.Brightness = 1
+    game.Workspace.Terrain.Decoration = false
+    game.Lighting.FogEnd = 100000
+
+    -- Remove particle emitters and trails
+    for _, v in ipairs(workspace:GetDescendants()) do
+        if v:IsA("ParticleEmitter") or v:IsA("Trail") or v:IsA("Smoke") or v:IsA("Fire") then
+            v.Enabled = false
+        elseif v:IsA("Explosion") then
+            v.Visible = false
+        end
+    end
+
+    -- Lower texture quality (optional)
+    for _, v in ipairs(workspace:GetDescendants()) do
+        if v:IsA("Texture") or v:IsA("Decal") then
+            v.Transparency = 1
+        end
+    end
+end
+
+function RestoreFPS()
+    -- Restore old settings
+    game.Lighting.GlobalShadows = old_settings.Lighting
+    game.Lighting.Brightness = old_settings.LightingBrightness
+    game.Workspace.Terrain.Decoration = old_settings.Terrain
+    game.Lighting.FogEnd = old_settings.FogEnd
+
+    -- Re-enable particle emitters and trails
+    for _, v in ipairs(workspace:GetDescendants()) do
+        if v:IsA("ParticleEmitter") or v:IsA("Trail") or v:IsA("Smoke") or v:IsA("Fire") then
+            v.Enabled = true
+        elseif v:IsA("Explosion") then
+            v.Visible = true
+        end
+    end
+
+    -- Restore texture quality (optional)
+    for _, v in ipairs(workspace:GetDescendants()) do
+        if v:IsA("Texture") or v:IsA("Decal") then
+            v.Transparency = 0
+        end
+    end
+end
+
+local Toggle = Tab8:CreateToggle({
+    Name = "FPS Booster",
+    CurrentValue = false,
+    Flag = "FPSBoosterToggle",
+    Callback = function(Value)
+        boosted = Value
+        if boosted then
+            BoostFPS()
+            Rayfield:Notify({
+                Title = "FPS Booster loaded",
+                Content = "FPS Optimized",
+                Duration = 3,
+                Image = 4483362458,
+            })
+        else
+            RestoreFPS()
+            Rayfield:Notify({
+                Title = "FPS Booster Disabled",
+                Content = "Normal Graphics restored.",
+                Duration = 3,
+                Image = 4483362458,
+            })
+        end
+    end,
+})
+
 local Button = Tab7:CreateButton({
   Name = "Ttd script 1", 
   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/asigmaserver/ttdv2/refs/heads/main/ttdv2script"))()
