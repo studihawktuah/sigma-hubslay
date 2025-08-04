@@ -90,8 +90,8 @@ local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to s
 local Section = Tab:CreateSection("somestuff")
 
 local Button = Tab:CreateButton({
-   Name = "Forsaken (fixed)",
-   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/BobJunior1/ForsakenBoi/refs/heads/main/B0bbyHub"))()
+   Name = "Forsaken (fixed key: V10RELEASE)",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sigmaboy-sigma-boy/Stamina-Settings-and-ESP/refs/heads/main/SigmasakenLoader"))()
   end,
 })
 local Button = Tab:CreateButton({
