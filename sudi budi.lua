@@ -183,6 +183,17 @@ local Button = Tab9:CreateButton({
 Name = "Wally west Moveset (Use Saitama)",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/west/refs/heads/main/Protected_4638864115822087.lua.txt"))()
 
+local Button = Tab9:CreateButton({
+Name = "Yuji X Sukuna Moveset (Equip Saitama)",
+Callback = function() 
+
+getgenv().secret = false
+getgenv().Dance = true
+getgenv().fog = true
+getgenv().infinitedash = false
+getgenv().night = false 
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Sigma%20v2%20vessel%20tp'))()
+
 
 local Section = Tab8:CreateSection("Settings")
 
