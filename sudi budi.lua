@@ -191,7 +191,7 @@ Callback = function() loadstring(game:HttpGet("https://pastefy.app/4zLt8a2P/raw"
 local Button = Tab9:CreateButton({
 Name = "Madara Moveset (Equip Saitama)",
 Callback = function()
-getgenv().Cutscene = True
+getgenv().Cutscene = true
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/SCRIPTSBYVEUX/refs/heads/main/BoombasticLol.lua.txt"))()
   end,
@@ -223,7 +223,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/NarutoBeat
 
 local Section = Tab8:CreateSection("Settings")
 
-local Slider = Tabeditplayer:CreateSlider({
+local Slider = Tab8:CreateSlider({
 
     Name = "change JumpPower",
 
@@ -245,7 +245,7 @@ local Slider = Tabeditplayer:CreateSlider({
 
  })
 
-local Slider = Tabeditplayer:CreateSlider({
+local Slider = Tab8:CreateSlider({
 
     Name = "Walkspeed",
 
