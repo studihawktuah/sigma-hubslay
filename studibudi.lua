@@ -97,8 +97,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
    Name = "infinite yield (fixed)",
    Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
-
-   end,
+  end,
 }) 
 
 local Section = Tab2:CreateSection("Grow a child heheh")
@@ -175,7 +174,6 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/L0stVeil/LocalScripts
    end,
 })
  
-
 local Section = Tab9:CreateSection("Tsb Movesets")
 
 local Button = Tab9:CreateButton({
