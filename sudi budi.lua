@@ -274,7 +274,7 @@ local Toggle = Tab8:CreateToggle({
         noclipEnabled = value
         NoclipLoop()
         Rayfield:Notify({
-            Title = Noclip Working" or "Noclip Stopped",
+            Title = Noclip Started" or "Noclip Stopped",
             Content = Noclip Active" or "Noclip Not Active",
             Duration = 3,
         })
