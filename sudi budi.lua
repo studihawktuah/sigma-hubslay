@@ -204,6 +204,13 @@ loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69
    end,
 })
 
+local Button = Tab9:CreateButton({
+Name = "Naruto Moveset (Equip Saitama)",
+Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/NarutoBeatUpSasukeAss/refs/heads/main/NarutoCums"))()
+   end,
+})
+
 local Section = Tab8:CreateSection("Settings")
 
 local Slider = Tabeditplayer:CreateSlider({
