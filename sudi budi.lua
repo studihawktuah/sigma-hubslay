@@ -154,17 +154,17 @@ loadstring(game:HttpGet("https://gist.githubusercontent.com/SonicexePort/d83f3ec
    end,
 }) 
 local Button = Tab9:CreateButton({
-Name = "Sun jin woo Moveset (U Saitama)",
+Name = "Sun jin woo Moveset (Equip Saitama)",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"))()
    end,
 }) 
 local Button = Tab9:CreateButton({
-Name = "Mastery Moveset (Use garou)",
+Name = "Mastery Moveset (Equip Garou)",
 Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
    end,
 })
 local Button = Tab9:CreateButton({
-Name = "Sonic.exe Moveset (Use garou)",
+Name = "Sonic.exe Moveset (Equip Garou)",
 Callback = function() loadstring(game:HttpGet("https://pastefy.app/4zLt8a2P/raw"))()
    end,
 })
@@ -179,7 +179,7 @@ Callback = function() loadstring(game:HttpGet("https://pastefy.app/4zLt8a2P/raw"
    end,
 })
 local Button = Tab9:CreateButton({
-Name = "Madara Moveset (Use Saitama)",
+Name = "Madara Moveset (Equip Saitama)",
 Callback = function()
 getgenv().Cutscene = True
 
