@@ -170,7 +170,7 @@ loadstring(string.char(
 local Button = Tab6:CreateButton({
   Name = "forsaken TD script 2",
   Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/L0stVeil/LocalScripts/refs/heads/main/LoaderFTD")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/L0stVeil/LocalScripts/refs/heads/main/LoaderFTD"))()
    end,
 })
  
