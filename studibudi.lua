@@ -100,10 +100,19 @@ local Button = Tab:CreateButton({
 
    end,
 }) 
+
+local Section = Tab2:CreateSection("Grow a child heheh")
+
 local Button = Tab2:CreateButton({
    Name = "grow a kid bc why not", 
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/gardenyoutuber/GrowAGardenBest/refs/heads/main/c20e40ceff8497098343d195dbdac37d.txt"))()
+  end,
+})
+
+local Button = Tab2:CreateButton({
+   Name = "grow a child script bc kidnap",
+   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/AstralzOffical/GAG/refs/heads/main/No-Lag-HUB-LoaderV1"))()
   end,
 })
 
