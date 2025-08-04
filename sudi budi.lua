@@ -151,38 +151,46 @@ getgenv().FatalCombatSkillLayout = true
 getgenv().MovesetReachSound = true
 
 loadstring(game:HttpGet("https://gist.githubusercontent.com/SonicexePort/d83f3eca5e8092468df1551df09db39a/raw/861f16fbae8fab8803cabfbc01295bb5b687f86a/Death%20Port%20Six%20Eyes%20Public%20Beta"))()
-
+   end,
+}) 
 local Button = Tab9:CreateButton({
 Name = "Sun jin woo Moveset (U Saitama)",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/hamletirl/sunjingwoo/refs/heads/main/sunjingwoo"))()
-
+   end,
+}) 
 local Button = Tab9:CreateButton({
 Name = "Mastery Moveset (Use garou)",
 Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/xKextYP5"))()
-
+   end,
+})
 local Button = Tab9:CreateButton({
 Name = "Sonic.exe Moveset (Use garou)",
 Callback = function() loadstring(game:HttpGet("https://pastefy.app/4zLt8a2P/raw"))()
-
+   end,
+})
 local Button = Tab9:CreateButton({
 Name = "Mafioso Moveset (Equip Saitama)",
 Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Lovelymoonlight/Lovelymoonlight/refs/heads/main/Baldy%20to%20mafioso'))()
-
+   end,
+})
 local Button = Tab9:CreateButton({
 Name = "1x1x1x1 Moveset (Equip Deadly Ninja)",
 Callback = function() loadstring(game:HttpGet("https://pastefy.app/4zLt8a2P/raw"))()
-
+   end,
+})
 local Button = Tab9:CreateButton({
 Name = "Madara Moveset (Use Saitama)",
 Callback = function()
 getgenv().Cutscene = True
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/LolnotaKid/SCRIPTSBYVEUX/refs/heads/main/BoombasticLol.lua.txt"))()
-
+   end,
+})
 local Button = Tab9:CreateButton({
-Name = "Wally west Moveset (Use Saitama)",
+Name = "Wally west Moveset (Equip Saitama)",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Nova2ezz/west/refs/heads/main/Protected_4638864115822087.lua.txt"))()
-
+   end,
+})
 local Button = Tab9:CreateButton({
 Name = "Yuji X Sukuna Moveset (Equip Saitama)",
 Callback = function() 
@@ -193,7 +201,8 @@ getgenv().fog = true
 getgenv().infinitedash = false
 getgenv().night = false 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Kenjihin69/Kenjihin69/refs/heads/main/Sigma%20v2%20vessel%20tp'))()
-
+   end,
+})
 
 local Section = Tab8:CreateSection("Settings")
 
