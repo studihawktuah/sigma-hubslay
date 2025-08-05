@@ -123,6 +123,21 @@ local Button = Tab3:CreateButton({
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scripts-Roblox/refs/heads/main/ScriptR6/AnimGuiV2.lua"))()
   end,
 })
+
+local Button = Tab3:CreateButton({
+Name = "Buy forsaken backpack for free",
+Callback = function() 
+Rayfield:Notify
+Title = "Successfully Brought Forsaken for free",
+Content = "Getting Forsaken files loading",
+Duration = 3.5
+Image = 4483362458,
+}) 
+wait(2)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberNinja103/brodwa/refs/heads/main/ForsakationHub"))()
+  end,
+})
+
 local Button = Tab:CreateButton({
    Name = "temugui",
    Callback = function()
