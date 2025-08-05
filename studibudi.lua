@@ -127,7 +127,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/Emerson2-creator/Scri
 local Button = Tab3:CreateButton({
 Name = "Buy forsaken backpack for free",
 Callback = function() 
-Rayfield:Notify
+Rayfield:Notify({
 Title = "Successfully Brought Forsaken for free",
 Content = "Getting Forsaken files loading",
 Duration = 3.5,
