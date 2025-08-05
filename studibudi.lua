@@ -130,7 +130,7 @@ Callback = function()
 Rayfield:Notify
 Title = "Successfully Brought Forsaken for free",
 Content = "Getting Forsaken files loading",
-Duration = 3.5
+Duration = 3.5,
 Image = 4483362458,
 }) 
 wait(2)
