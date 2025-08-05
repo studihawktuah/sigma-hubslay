@@ -129,11 +129,11 @@ Name = "Buy forsaken backpack for free",
 Callback = function() 
 Rayfield:Notify({
 Title = "Successfully Brought Forsaken for free",
-Content = "Getting Forsaken files loading",
+Content = "Getting Forsaken files loading renamed",
 Duration = 3.5,
 Image = 4483362458,
 }) 
-wait(2)
+wait(5)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/CyberNinja103/brodwa/refs/heads/main/ForsakationHub"))()
   end,
 })
