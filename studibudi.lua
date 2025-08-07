@@ -554,3 +554,15 @@ Name = "Pop Battles instantly get all badge gloves",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantGloves", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantCarKeys", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantReflect", true))()
    end,
 })
+
+local Button = Tab12:CreateButton({
+Name = "Pop Battles God human glove (aka the thing from blox fruits)",
+Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/GodHuman", true))()
+   end,
+})
+
+local Button = Tab12:CreateButton({
+Name = "Pop Battles Edgelord glove",
+Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/Edgelord", true))()
+   end,
+})
