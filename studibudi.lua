@@ -542,3 +542,15 @@ Name = "ChildrenBorn 2",
 Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/z86UZcwJ"))()
    end,
 })
+
+local Button = Tab12:CreateButton({
+Name = "Pop Battles Get any badge glove (manual)",
+Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/EquipAnyBadgeGloves", true))()
+   end,
+})
+
+local Button = Tab12:CreateButton({
+Name = "Pop Battles instantly get all badge gloves",
+Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantGloves", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantCarKeys", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantReflect", true))()
+   end,
+})
