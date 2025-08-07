@@ -68,7 +68,8 @@ local Tab7 = Window:CreateTab("TTD", 4483362458) -- Title, Image
 local Tab8 = Window:CreateTab("settings", 4483362458) -- Title, Image
 local Tab9 = Window:CreateTab("Tsb Movesets", 4483362458) -- Title, Image
 local Tab10 = Window:CreateTab("100 Nights in the Basement", 4483362458) -- Title, Image
-local = Tab11 = Window:CreateTab("ChildBorn", 4483362458) -- Title, Image
+local Tab11 = Window:CreateTab("ChildBorn", 4483362458) -- Title, Image
+local Tab12 = Window:CreateTab("Pop battles", 4483362458) -- Title, Image
 
 local Divider = Tab:CreateDivider()
 local Divider = Tab2:CreateDivider()
@@ -79,6 +80,9 @@ local Divider = Tab6:CreateDivider()
 local Divider = Tab7:CreateDivider()
 local Divider = Tab8:CreateDivider()
 local Divider = Tab9:CreateDivider()
+local Divider = Tab10:CreateDivider()
+local Divider = Tab11:CreateDivider()
+local Divider = Tab12:CreateDivider()
 
 Rayfield:Notify({
    Title = "welcome user",
