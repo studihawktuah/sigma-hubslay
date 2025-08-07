@@ -67,6 +67,8 @@ local Tab6 = Window:CreateTab("forsaken/forsakenTD :P", 108576666797778) -- Titl
 local Tab7 = Window:CreateTab("TTD", 4483362458) -- Title, Image
 local Tab8 = Window:CreateTab("settings", 4483362458) -- Title, Image
 local Tab9 = Window:CreateTab("Tsb Movesets", 4483362458) -- Title, Image
+local Tab10 = Window:CreateTab("100 Nights in the Basement", 4483362458) -- Title, Image
+local = Tab11 = Window:CreateTab("ChildBorn", 4483362458) -- Title, Image
 
 local Divider = Tab:CreateDivider()
 local Divider = Tab2:CreateDivider()
@@ -85,7 +87,7 @@ Rayfield:Notify({
    Image = 79143620854409,
 })
 
-local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious"})
+local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious slay"})
 
 local Section = Tab:CreateSection("somestuff")
 
@@ -516,5 +518,23 @@ local Toggle = Tab8:CreateToggle({
 local Button = Tab7:CreateButton({
   Name = "Ttd script 1", 
   Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/asigmaserver/ttdv2/refs/heads/main/ttdv2script"))()
+   end,
+})
+
+local Button = Tab10:CreateButton({
+Name = "100 Nights In The Basement (Yeah Basement Perfect)",
+Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/OverflowBGSI/Overflow/refs/heads/main/loader.txt"))()
+   end,
+}) 
+
+local Button = Tab11:CreateButton({
+Name = "ChildBorn 1 (Best)", 
+Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/nvkob1/rbxscripts/refs/heads/main/SUITBORN/SUITBORN.lua"))()
+   end,
+})
+
+local Button = Tab11:CreateButton({
+Name = "ChildrenBorn 2",
+Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/z86UZcwJ"))()
    end,
 })
