@@ -106,7 +106,7 @@ local Button = Tab:CreateButton({
   end,
 }) 
 
-local Section = Tab2:CreateSection("Grow a child heheh")
+local Section = Tab2:CreateSection("Grow a Garden")
 
 local Button = Tab2:CreateButton({
    Name = "grow a kid bc why not", 
@@ -525,11 +525,15 @@ local Button = Tab7:CreateButton({
    end,
 })
 
+local Section = Tab10:CreateSection("99 nights in the forest")
+
 local Button = Tab10:CreateButton({
 Name = "100 Nights In The Basement (Yeah Basement Perfect)",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/OverflowBGSI/Overflow/refs/heads/main/loader.txt"))()
    end,
 }) 
+
+local Section = Tab11:CreateSection("SUITBORN")
 
 local Button = Tab11:CreateButton({
 Name = "ChildBorn 1 (Best)", 
@@ -542,6 +546,8 @@ Name = "ChildrenBorn 2",
 Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/z86UZcwJ"))()
    end,
 })
+
+local Section = Tab12:CreateSection("Slap Battles")
 
 local Button = Tab12:CreateButton({
 Name = "Pop Battles Get any badge glove (manual)",
