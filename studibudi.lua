@@ -70,6 +70,7 @@ local Tab9 = Window:CreateTab("Tsb Movesets", 4483362458) -- Title, Image
 local Tab10 = Window:CreateTab("100 Nights in the Basement", 4483362458) -- Title, Image
 local Tab11 = Window:CreateTab("ChildBorn", 4483362458) -- Title, Image
 local Tab12 = Window:CreateTab("Pop battles", 4483362458) -- Title, Image
+local Tab13 = Window:CreateTab("C00lhack hub here and its really noice!!", 0)
 
 local Divider = Tab:CreateDivider()
 local Divider = Tab2:CreateDivider()
