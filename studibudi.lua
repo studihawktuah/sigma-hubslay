@@ -558,7 +558,8 @@ Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com
 
 local Button = Tab12:CreateButton({
 Name = "Pop Battles instantly get all badge gloves",
-Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantGloves", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantCarKeys", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantReflect", true))()
+Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantDave", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantMortis", true))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantGloves", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantCarKeys", true))() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/InstantReflect", true))()
    end,
 })
 
