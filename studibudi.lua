@@ -97,7 +97,7 @@ local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to s
 local Section = Tab:CreateSection("somestuff")
 
 local Button = Tab:CreateButton({
-   Name = "Forsaken (fixed key: BETTERPROTECTNAMESANDESP)",
+   Name = "Forsaken (fixed key: ESPREWRITED)",
    Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/sigmaboy-sigma-boy/Stamina-Settings-and-ESP/refs/heads/main/SigmasakenLoader"))()
   end,
 })
