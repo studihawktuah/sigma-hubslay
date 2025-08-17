@@ -574,3 +574,17 @@ Name = "Pop Battles Edgelord glove",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/IncognitoScripts/SlapBattles/main/Edgelord", true))()
    end,
 })
+local Button = Tab3:CreateButton({
+Name = "Pop Battles Get instant a few master gloves",
+Callback = function() local mod = require(game.ReplicatedFirst.Dependencies.GloveMasteryClient)
+
+hookfunction(mod.IsMasteredVersionEnabled, function(self, g)
+    return g == "Killstreak" or g == "Glovel" or g == "spin" or g == "rob" or old(self, g)
+end)
+   end
+})
+local Button = Tab3:CreateButton({
+Name = "Pop battles Secret glove access",
+Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Umbrella-Scripter/Slap-Battles/refs/heads/main/F.L.O.W.E.R.lua'))()
+   end
+})
