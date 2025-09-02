@@ -584,10 +584,12 @@ end)
    end
 })
 local Button = Tab12:CreateButton({
-Name = "Pop battles Secret glove access",
+Name = "Pop battles Flower glove",
 Callback = function() loadstring(game:HttpGet('https://raw.githubusercontent.com/Umbrella-Scripter/Slap-Battles/refs/heads/main/F.L.O.W.E.R.lua'))()
    end
 })
 local Button = Tab3:CreateButton({
 Name = "Forsaken anims (Join forsaken to use!) credits to C00lhack",
 Callback = function() loadstring(game:HttpGet("https://raw.githubusercontent.com/Shadowhacksaw/Hi/refs/heads/main/forsakenhub.lua"))()
+   end
+}) 
