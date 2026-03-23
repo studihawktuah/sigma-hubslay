@@ -4,11 +4,11 @@ local Window = Rayfield:CreateWindow({
 
    Name = "Studi Hub!!",
 
-   Icon = 97902489439967, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = 112403485000614, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
 
    LoadingTitle = "welcome to studious hub",
 
-   LoadingSubtitle = "i luvvv i luh a uv",
+   LoadingSubtitle = "May Scripts Choose our fate.",
 
    Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
 
@@ -40,19 +40,19 @@ local Window = Rayfield:CreateWindow({
 
    KeySettings = {
 
-      Title = "Studi system",
+      Title = "Megadillion system",
 
-      Subtitle = "sigma studi hub",
+      Subtitle = "DW fan alert!",
 
-      Note = "dumbass its studi", -- Use this to tell the user how to get a key
+      Note = "The Code is IluvBassieSM", -- Use this to tell the user how to get a key
 
-      FileName = "studi", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+      FileName = "ILuvBassieSM", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
 
       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
 
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 
-      Key = {"studi"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"IluvBassieSM"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
 
    }
 
@@ -89,10 +89,10 @@ Rayfield:Notify({
    Title = "welcome user",
    Content = "hai this is studi hub also try c00lhackk script hub too!",
    Duration = 6.5,
-   Image = 79143620854409,
+   Image = 114872746569445,
 })
 
-local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "credits to studious slay"})
+local Paragraph = Tab:CreateParagraph({Title = "jarate", Content = "C00lhack/Min3rZ3roAqua89 Made most of this Hub creds to him and check it out!"})
 
 local Section = Tab:CreateSection("somestuff")
 
